@@ -1,0 +1,1327 @@
+---------------------------------------------------------------
+[ 2018-02-24T15:24:24+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.064453s][吞吐率：15.52req/s] [内存消耗：1,098.64kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:24:52+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.030274s][吞吐率：33.03req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:17+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032226s][吞吐率：31.03req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:18+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:20+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:20+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.033203s][吞吐率：30.12req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:20+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:20+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.034180s][吞吐率：29.26req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:20+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.033204s][吞吐率：30.12req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:21+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032226s][吞吐率：31.03req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:21+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:21+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.033203s][吞吐率：30.12req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:21+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032226s][吞吐率：31.03req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:22+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:22+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:22+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.033203s][吞吐率：30.12req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:25:23+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.033203s][吞吐率：30.12req/s] [内存消耗：1,120.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:03+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,119.87kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:23+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.029297s][吞吐率：34.13req/s] [内存消耗：1,101.97kb] [文件加载：38]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Uninitialized string offset: 63[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\extra\functions.php:148]
+---------------------------------------------------------------
+[ 2018-02-24T15:27:36+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.027344s][吞吐率：36.57req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:38+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032226s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:39+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:39+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:39+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.033203s][吞吐率：30.12req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:39+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.033203s][吞吐率：30.12req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:40+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032226s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:40+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.033203s][吞吐率：30.12req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:41+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032226s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:41+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032226s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:41+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:41+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:42+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:42+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:42+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:42+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:43+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032226s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:43+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.033203s][吞吐率：30.12req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:43+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:43+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:43+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:44+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032226s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T15:27:44+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.032227s][吞吐率：31.03req/s] [内存消耗：1,120.25kb] [文件加载：37]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T16:16:37+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.240235s][吞吐率：4.16req/s] [内存消耗：1,894.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072266s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_plan` [ RunTime:0.049805s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_plan` WHERE  `openid` = 'oIp7r0JniBFyLndTxQ4aj1-o8MIo' LIMIT 1 [ RunTime:0.046875s ]
+---------------------------------------------------------------
+[ 2018-02-24T16:17:01+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/plan/ceshi
+[ info ] localhost/lyzg/public/index.php/wxapi/plan/ceshi [运行时间：0.253906s][吞吐率：3.94req/s] [内存消耗：1,903.45kb] [文件加载：45]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'plan',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Plan->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Plan.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.086914s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_plan` [ RunTime:0.061523s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_plan` WHERE  `openid` = 'oIp7r0JniBFyLndTxQ4aj1-o8MIo' [ RunTime:0.060547s ]

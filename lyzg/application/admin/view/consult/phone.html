@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>在线答疑</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="expires" content="86400" />
+    <meta name="Keywords" content="关键字"/>
+    <meta name="Description" content="简介"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="ADMIN_CSS/base.min.css"/>
+    <link rel="stylesheet" type="text/css" href="ADMIN_CSS/layout.css"/>
+    <link href="ADMIN_FONTS/font-awesome.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="HOME_LAY/css/layui.css">
+    <style>
+        .layui-laypage li {
+            text-decoration: none;
+            float:left;
+        }
+        layui.css:2
+        .layui-laypage li, .layui-laypage span {
+
+
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0 15px;
+            height: 28px;
+            line-height: 28px;
+            margin: 0 -1px 5px 0;
+            background-color: #fff;
+            color: #333;
+            font-size: 12px;
+        }
+        .file {
+            position: relative;
+            display: inline-block;
+            background: #D0EEFF;
+            border: 1px solid #99D3F5;
+            border-radius: 4px;
+            padding: 4px 12px;
+            overflow: hidden;
+            color: #1E88C7;
+            text-decoration: none;
+            text-indent: 0;
+            line-height: 20px;
+        }
+        .file input {
+            position: absolute;
+            font-size: 100px;
+            right: 0;
+            top: 0;
+            opacity: 0;
+        }
+        .file:hover {
+            background: #AADFFD;
+            border-color: #78C3F3;
+            color: #004974;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="wrp">
+        <h1 class="logo"><a href="/" title=""> <img src="ADMIN_IMG/logo.png"> </a></h1>
+        <div class="account">
+            <div class="account_meta account_logout"><a href="" class="nickname"><?php echo session('nickname') ?></a></div>
+            <div class="account_meta account_logout"><a id="logout" href="{:url('Login/logout')}">退出</a></div>
+        </div>
+    </div>
+</div>
+<div class="body">
+    <!--导航菜单-左侧-->
+    <div class="left">
+        <dl class="menu no_extra">
+            <dt class="menu_title"><i class="icon_menu function" style="background:url(ADMIN_IMG/icon_user.png) no-repeat; width:23px;height:23px;"></i><a href="#">在线答疑</a></dt>
+            <!--<dd class="menu_item active"><a href="#">员工管理</a></dd>-->
+        </dl>
+        <!--<dl class="menu">-->
+            <!--<dt class="menu_title"><i class="icon_menu function"></i>功能管理</dt>-->
+            <!--<dd class="menu_item "><a href="#">我的酒店</a></dd>-->
+            <!--<dd class="menu_item "><a href="#">入住登记</a></dd>-->
+            <!--<dd class="menu_pay"><a class="btn_pay_add" href="#">添加酒店</a></dd>-->
+        <!--</dl>-->
+        <!--<dl class="menu">-->
+            <!--<dt class="menu_title"><i class="icon_menu statistics"></i>订单管理</dt>-->
+            <!--<dd class="menu_item "><a href="#">预定信息</a></dd>-->
+            <!--<dd class="menu_item "><a href="#">财务信息</a></dd>-->
+        <!--</dl>-->
+    </div>
+    <!--内容显示区-右侧-->
+    <div class="right">
+        <!--<div class="alert alert-default">-->
+            <!--<h4><span class="text-danger">提示信息</span></h4>-->
+            <!--<p class="text-muted">-->
+                <!--当前员工数量<span class="label label-danger">1</span>-->
+            <!--</p>-->
+            <!--<p>-->
+                <!--<a class="btn btn-danger pull-right" href="#">添加员工</a>-->
+            <!--</p>-->
+        <!--</div>-->
+        <div class="line">
+
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab">
+                    <thead>
+                    <tr>
+                        <td>ID</td>
+
+                        <td>名字</td>
+
+                        <td>电话</td>
+
+                        <td>问题</th>
+                        <td>答案</th>
+                        <td>提交时间</th>
+                        <td>操作</td>
+                        <td>状态</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {foreach name="data" item="vo"}
+                    <form  action="{:url('consult/ajax_form')}"  onsubmit="return CheckForm()" method="post" enctype="multipart/form-data">
+                        <input type="hidden" id="content_id" name="content_id" value="{$vo.content_id}">
+                    <tr align="center" aid="1">
+                        <td><a href="{:url('reply/reply')}">{$vo.content_id}</a></td>
+
+                        <td>{$vo.name}</td>
+
+                        <td>{$vo.phonenum}</td>
+                        <td>
+                            <div id="picurl" class="layer-photos-demo">
+                                <img layer-pid="" layer-src="{$vo.picurl}" src="{$vo.picurl}" style="height: 40px;width: 40px;" alt="问题">
+                            </div>
+
+                        </td>
+                        <td>
+                            <div id="answer"  class="layer-photos-demo">
+                                <img layer-pid="" layer-src="{$vo.answer}" src="{$vo.answer}" style="height: 40px;width: 40px;"alt="答案">
+                            </div>
+                        </td>
+                        <td>{:date('Y/m/d H:i:s',$vo['time'])}</td>
+                        <td>
+                            <div class="layui-upload">
+                                    <input id="fileupload"   type="file" name="file"  data-value="{$vo.content_id}"  size="30"  accept="image/*" capture="camera" />
+
+                            </div>
+
+                        </td>
+                        <td> <input type="submit" value="提交" class="layui-btn"></td>
+
+                        <td>
+                            {eq name="vo.state" value="已处理"}
+                            <button type="button" class="layui-btn layui-btn-normal">
+                                <i class="fa fa-check"></i>&nbsp;&nbsp;
+                                <span class="bold">{$vo.state}</span>
+                            </button>
+                            {else/}
+                            <button type="button" class="layui-btn layui-btn-danger" >
+                                <i class="fa fa-times"></i>&nbsp;&nbsp;
+                                <span class="bold">{$vo.state}</span>
+                            </button>
+                            {/eq}
+
+                        </td>
+                    </tr>
+                    </form>
+                    {/foreach}
+                    </tbody>
+                </table>
+
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="layui-box layui-laypage layui-laypage-default" id="layui-laypage-2" style="margin-left: 45%;">
+    {$page}
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Mainly scripts -->
+<script src="ADMIN_JS/jquery-3.2.1.min.js"></script>
+<script src="HOME_LAY/layui.js"></script>
+
+
+
+
+<script>
+
+
+
+
+    //调用示例
+
+    layui.use('layer', function(){
+        var layer = layui.layer;
+        layer.photos({
+            photos: '.layer-photos-demo'
+            ,anim: 3
+        });
+
+
+    });
+
+</script>
+
+
+
+<script>
+    // var uploadInst;
+    // $('.btn-success').click(function(){
+    //     var content_id=$(this).attr('value');
+    //     uploadInst.config.data.content_id=content_id;
+    // })
+    //
+    // layui.use('upload', function(){
+    //     var $ = layui.jquery
+    //         ,upload = layui.upload,
+    //         layer = layui.layer;
+    //     uploadInst = upload.render({
+    //         elem: $('.btn-success')
+    //         ,url: '{:url("consult/ajax_pic")}'
+    //         ,before: function(obj){
+    //             index = layer.load();
+    //         }
+    //         ,done: function(res){
+    //             layer.msg(res.data);
+    //             layer.close(index);
+    //             parent.location.reload(); // 父页面刷新
+    //
+    //         }
+    //         ,error: function(){
+    //             //演示失败状态，并实现重传
+    //             var demoText = $('#demoText');
+    //             demoText.html('<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-mini demo-reload">重试</a>');
+    //             demoText.find('.demo-reload').on('click', function(){
+    //                 uploadInst.upload();
+    //             });
+    //         }
+    //     });
+    //
+    // });
+</script>
+
+
+</body>
+</html>

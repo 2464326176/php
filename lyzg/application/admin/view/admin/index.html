@@ -1,0 +1,212 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+
+    <title>管理员主页面</title>
+
+
+
+    <link href="ADMIN_CSS/bootstrap.min.css?v=3.4.0" rel="stylesheet">
+    <link href="ADMIN_FONTS/font-awesome.css" rel="stylesheet">
+
+    <link href="ADMIN_CSS/animate.css" rel="stylesheet">
+    <link href="ADMIN_CSS/style.css?v=2.2.0" rel="stylesheet">
+
+</head>
+
+<body class="pace-done">
+    <div class="pace  pace-inactive">
+        <div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+            <div class="pace-progress-inner"></div>
+        </div>
+        <div class="pace-activity"></div>
+    </div>
+    <div id="wrapper">
+        <!-- 侧栏 -->
+        {include file="public/left" /}
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            {include file="public/header" /}
+
+            <!-- 面包导航 -->
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-sm-4">
+                    <h2>当前位置</h2>
+                    <ol class="breadcrumb">
+
+                        <li>
+                            <strong>管理员主页面</strong>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-sm-8">
+                    <div class="title-action">
+                        <a class="btn btn-primary" href="{:url('Admin/index')}">刷新</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 主页面 -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>管理员主页面</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <div class="row">
+                                <div class="col-sm-5 m-b-xs">
+                                    <!--<select class="input-sm form-control input-s-sm inline">
+                                            <option value="0">请选择</option>
+                                            <option value="1">选项1</option>
+                                            <option value="2">选项2</option>
+                                            <option value="3">选项3</option>
+                                        </select>-->
+                                </div>
+                                <div class="col-sm-4 m-b-xs">
+                                    <!--<div data-toggle="buttons" class="btn-group">
+                                        <label class="btn btn-sm btn-white">
+                                                <input type="radio" id="option1" name="options">天</label>
+                                        <label class="btn btn-sm btn-white active">
+                                                <input type="radio" id="option2" name="options">周</label>
+                                        <label class="btn btn-sm btn-white">
+                                                <input type="radio" id="option3" name="options">月</label>
+                                    </div>-->
+                                </div>
+                                <form action="{:url('Admin/index')}" method="post" onsubmit="return CheckSearch()">
+                                    <div class="col-sm-3">
+                                        <div class="input-group">
+                                            <input type="text" id="search" name="search" placeholder="请输入关键词" class="input-sm form-control"> <span class="input-group-btn">
+                                        <button type="submit" class="btn btn-sm btn-primary"> 搜索</button>
+                                        
+                                     </span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <form action="{:url('Admin/del')}" method="post">
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+
+                                                <th>选框</th>
+                                                <th>账号</th>
+                                                <th>昵称</th>
+                                                <th>级别</th>
+                                                <th>审核状态</th>
+                                                <th>登录时间</th>
+                                                <th>最后在线时间</th>
+                                                <th>登录IP</th>
+                                                <th>登录次数</th>
+                                                <th>操作</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {foreach name="data" item="vo"}
+                                            <tr>
+                                                <td><input type="checkbox" name="uid[]" value="{$vo.uid}"></td>
+                                                <td>{$vo.username}</td>
+                                                <td>{$vo.nickname}</td>
+                                                <td>{$vo.groupname}</td>
+                                                <td>{eq name="vo.checkstate" value="false"}未审核{else/}<span style="color:red;">已审核</span>{/eq}</td>
+                                                <td>{$vo.logintime|date="Y-m-d H:i:s",###}</td>
+                                                <td>{$vo.outtime|date="Y-m-d H:i:s",###}</td>
+                                                <td>{$vo.loginip}</td>
+                                                <td>{$vo.loginnum}</td>
+                                                <td>
+                                                    {eq name="vo.levelname" value="1"}
+                                                    {else/}{/eq}
+                                                    {eq name="vo.uid" value="1"} {else/}
+                                                    <a href="{:url('Admin/mod?uid='.$vo['uid'])}">修改</a>/<a href="{:url('Admin/delete?uid='.$vo['uid'])}">删除</a> {/eq}
+
+                                                </td>
+                                            </tr>
+                                            {/foreach}
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="form-group">
+                                    <a class="btn btn-primary" style="float: left;" id="all">全选</a>
+                                    <button class="btn btn-primary btn-danger" type="submit" style="float: left;">删除</button>
+
+                                    <a class="btn btn-primary" style="float: right;" href="{:url('Admin/add')}">添加</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 主页面 -->
+
+            <!-- 尾部 -->
+            {include file="public/footer" /}
+
+        </div>
+    </div>
+
+
+    <!-- Mainly scripts -->
+    <script src="ADMIN_JS/jquery-3.2.1.min.js"></script>
+    <script src="ADMIN_JS/bootstrap.min.js?v=3.4.0"></script>
+    <script src="ADMIN_JS/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="ADMIN_JS/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="ADMIN_JS/hplus.js?v=2.2.0"></script>
+    <script src="ADMIN_JS/plugins/pace/pace.min.js"></script>
+    <script type="text/javascript">
+        $('#all').click(function() {　　　　
+            id = document.getElementsByName('uid[]');
+            /*for(i in id){
+            	alert(id[i].value);
+            	
+            }*/
+            //alert(typeof(id));
+            for (i = 0; i < id.length; i++) {
+                if (id[i].checked) {
+                    id[i].checked = false;
+                } else {
+                    id[i].checked = true;
+                }
+            }
+
+            　　
+        });
+
+        function CheckSearch() {
+            if ($("#search").val() == "") {
+                alert("请填写搜索内容！");
+                $("#search").focus();
+                return false;
+
+            }
+
+        }
+    </script>
+
+
+
+
+    <!-- 尾部 -->
+    {include file="public/tool" /}
+
+
+
+
+</body>
+
+</html>

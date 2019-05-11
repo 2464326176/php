@@ -1,0 +1,353 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>在线答疑查看</title>
+    <link href="HOME_CSS/base.css" rel="stylesheet" type="text/css" />
+    <link href="ADMIN_CSS/bootstrap.min.css?v=3.4.0" rel="stylesheet">
+    <link href="ADMIN_FONTS/font-awesome.css" rel="stylesheet">
+
+    <link href="ADMIN_CSS/animate.css" rel="stylesheet">
+    <link href="ADMIN_CSS/style.css?v=2.2.0" rel="stylesheet">
+    <link rel="stylesheet" href="HOME_LAY/css/layui.css">
+    <!-- Data Tables -->
+    <link href="ADMIN_CSS/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+    <style>
+    </style>
+</head>
+
+<body class="pace-done">
+<div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+        <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+</div>
+<div id="wrapper">
+    <!-- 侧栏 -->
+    {include file="public/left" /}
+    <!-- 侧栏 -->
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <!-- 头部 -->
+        {include file="public/header" /}
+        <!-- 头部 -->
+        <!-- 面包导航 -->
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-sm-4">
+                <h2>当前位置</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="index.html">主页</a>
+                    </li>
+                    <li>
+                        <strong>包屑导航</strong>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-sm-8">
+                <div class="title-action">
+                    <a href="" onclick="window.location.reload();" class="btn btn-primary">刷新页面</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 主页面 -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>基本 <small>分类，查找</small></h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="table_data_tables.html#">
+                                <i class="fa fa-wrench"></i>
+                            </a>
+
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+
+
+                            <table class="table table-striped table-bordered table-hover dataTables-example dataTable" id="DataTables_Table_0" aria-describedby="DataTables_Table_0_info">
+
+
+                            <thead>
+                            <tr role="row">
+                                <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" >ID</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" >微信昵称</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">名字</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">性别</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">电话</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">地址</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">来源</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">学校</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">班级</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">问题</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">答案</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">提交时间</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">操作</th>
+                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">状态</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+
+                                {foreach name="data" item="vo"}
+                                <form  action="{:url('consult/ajax_form')}"  onsubmit="return CheckForm()" method="post" enctype="multipart/form-data">
+
+                            <tr>
+                                <td><a href="{:url('reply/reply')}">{$vo.content_id}</a></td>
+                                <td>{$vo.nickname}</td>
+                                <td>{$vo.name}</td>
+                                <td>{eq name="vo.sex" value="1"}男{/eq}{eq name="vo.sex" value="2"}女{/eq}{eq name="vo.sex" value="0"}未知{/eq}</td>
+                                <td>{$vo.phonenum}</td>
+                                <td>{$vo.address}</td>
+                                <td>{$vo.source}</td>
+                                <td>{$vo.schoolname}</td>
+                                <td>{$vo.classname}</td>
+                                <td>
+                                    <div id="picurl" class="layer-photos-demo">
+                                        <img layer-pid="" layer-src="{$vo.picurl}" src="{$vo.picurl}" style="height: 40px;width: 40px;" alt="问题">
+                                    </div>
+
+                                </td>
+                                <td>
+                                    <div id="answer"  class="layer-photos-demo">
+
+                                        <img layer-pid="" layer-src="{$vo.answer}" src="{$vo.answer}" style="height: 40px;width: 40px;"alt="答案">
+                                    </div>
+                                </td>
+                                <td>{:date('Y-m-d H:i:s',$vo['time'])}</td>
+                                <td>
+                                    <div class="layui-upload">
+                                        <button type="button" class="btn btn-success" value="{$vo.content_id}"><i class="fa fa-send"></i>&nbsp;&nbsp;
+                                            <span class="bold">发送</span>
+                                        </button>
+                                    </div>
+
+                                </td>
+                                <td>
+                                    {eq name="vo.state" value="已处理"}
+                                    <button type="button" class="btn btn-info">
+                                       <i class="fa fa-check"></i>&nbsp;&nbsp;
+                                        <span class="bold">{$vo.state}</span>
+                                    </button>
+                                    {else/}
+                                    <button type="button" class="btn btn-danger" >
+                                        <i class="fa fa-times"></i>&nbsp;&nbsp;
+                                        <span class="bold">{$vo.state}</span>
+                                    </button>
+                                    {/eq}
+
+                               </td>
+
+                            </tr>
+
+                            </form>
+                                {/foreach}
+
+
+                            </tbody>
+
+
+                        </table>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- 主页面 -->
+
+
+
+
+        <!-- 尾部 -->
+        {include file="public/footer" /}
+
+    </div>
+</div>
+
+
+<!-- Mainly scripts -->
+<script src="ADMIN_JS/jquery-3.2.1.min.js"></script>
+<script src="ADMIN_JS/bootstrap.min.js?v=3.4.0"></script>
+<script src="ADMIN_JS/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="ADMIN_JS/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="ADMIN_JS/hplus.js?v=2.2.0"></script>
+<script src="ADMIN_JS/plugins/pace/pace.min.js"></script>
+
+<script src="HOME_LAY/layui.js"></script>
+<script type="text/javascript" src="HOME_JS/jquery.jqzoom.js"></script>
+
+
+<script src="ADMIN_JS/plugins/jeditable/jquery.jeditable.js"></script>
+
+<!-- Data Tables -->
+<script src="ADMIN_JS/plugins/dataTables/jquery.dataTables.js"></script>
+<script src="ADMIN_JS/plugins/dataTables/dataTables.bootstrap.js"></script>
+
+<script type="text/javascript">
+
+    $(function(){
+        var MobileUA = (function() {
+            var ua = navigator.userAgent.toLowerCase();
+            var mua = {
+                IOS: /ipod|iphone|ipad/.test(ua), //iOS
+                IPHONE: /iphone/.test(ua), //iPhone
+                IPAD: /ipad/.test(ua), //iPad
+                ANDROID: /android/.test(ua), //Android Device
+                WINDOWS: /windows/.test(ua), //Windows Device
+                TOUCH_DEVICE: ('ontouchstart' in window) || /touch/.test(ua), //Touch Device
+                MOBILE: /mobile/.test(ua), //Mobile Device (iPad)
+                ANDROID_TABLET: false, //Android Tablet
+                WINDOWS_TABLET: false, //Windows Tablet
+                TABLET: false, //Tablet (iPad, Android, Windows)
+                SMART_PHONE: false //Smart Phone (iPhone, Android)
+            };
+
+            mua.ANDROID_TABLET = mua.ANDROID && !mua.MOBILE;
+            mua.WINDOWS_TABLET = mua.WINDOWS && /tablet/.test(ua);
+            mua.TABLET = mua.IPAD || mua.ANDROID_TABLET || mua.WINDOWS_TABLET;
+            mua.SMART_PHONE = mua.MOBILE && !mua.TABLET;
+
+            return mua;
+        }());
+        //SmartPhone
+        if (MobileUA.SMART_PHONE) {
+            // 移动端链接地址
+
+            document.location.href = "{:url('consult/phone')}";
+        }
+    });
+</script>
+
+<script>
+    //调用示例
+
+    layui.use('layer', function(){
+        var layer = layui.layer;
+        layer.photos({
+            photos: '.layer-photos-demo'
+            ,anim: 3
+        });
+
+
+    });
+
+</script>
+
+
+<script>
+    var uploadInst;
+$('.btn-success').click(function(){
+    var content_id=$(this).attr('value');
+    uploadInst.config.data.content_id=content_id;
+})
+
+layui.use('upload', function(){
+    var $ = layui.jquery
+        ,upload = layui.upload,
+        layer = layui.layer;
+    uploadInst = upload.render({
+        elem: $('.btn-success')
+        ,url: '{:url("consult/ajax_pic")}'
+        ,before: function(obj){
+            index = layer.load();
+        }
+        ,done: function(res){
+            console.log(res);
+            layer.msg(res.data);
+            layer.close(index);
+            parent.location.reload(); // 父页面刷新
+
+        }
+        ,error: function(){
+            //演示失败状态，并实现重传
+            var demoText = $('#demoText');
+            demoText.html('<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-mini demo-reload">重试</a>');
+            demoText.find('.demo-reload').on('click', function(){
+                uploadInst.upload();
+            });
+        }
+    });
+
+});
+
+
+
+
+</script>
+
+
+
+
+
+
+
+<!-- Page-Level Scripts -->
+<script>
+    $(document).ready(function () {
+        $('.dataTables-example').dataTable();
+
+        /* Init DataTables */
+        var oTable = $('#editable').dataTable();
+
+        /* Apply the jEditable handlers to the table */
+        oTable.$('td').editable('../example_ajax.php', {
+            "callback": function (sValue, y) {
+                var aPos = oTable.fnGetPosition(this);
+                oTable.fnUpdate(sValue, aPos[0], aPos[1]);
+            },
+            "submitdata": function (value, settings) {
+                return {
+                    "row_id": this.parentNode.getAttribute('id'),
+                    "column": oTable.fnGetPosition(this)[2]
+                };
+            },
+
+            "width": "90%",
+            "height": "100%"
+        });
+
+
+    });
+
+    function fnClickAddRow() {
+        $('#editable').dataTable().fnAddData([
+            "Custom row",
+            "New row",
+            "New row",
+            "New row",
+            "New row"]);
+
+    }
+</script>
+
+
+<!-- 尾部 -->
+{include file="public/tool" /}
+<!-- 尾部 -->
+
+
+
+</body>
+
+</html>

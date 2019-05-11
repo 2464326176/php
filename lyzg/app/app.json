@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/sign/index",
+    "pages/task/task",
+    "pages/task/share/share",
+    "pages/invitation/invitation",
+    "pages/home/home",
+    
+    "pages/new/new",
+    "pages/add/add",
+    "pages/record/record",
+    "pages/new/success/success",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "打卡计划",
+    "backgroundColor": "#f7f7f7",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#b2b2b2",
+    "selectedColor": "#2fcc85",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "打卡",
+        "iconPath": "image/add_unselected.png",
+        "selectedIconPath": "image/add_selected.png"
+      },{
+      "pagePath": "pages/sign/index",
+      "text": "快速打卡",
+      "iconPath": "image/check_unselected.png",
+      "selectedIconPath": "image/check_selected.png"
+    },{
+      "pagePath": "pages/task/task",
+      "text": "任务管理",
+      "iconPath": "image/task_unselected.png",
+      "selectedIconPath": "image/task_selected.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

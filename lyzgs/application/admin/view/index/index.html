@@ -1,0 +1,98 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+
+    <title>主页面</title>
+    <link href="ADMIN_CSS/bootstrap.min.css?v=3.4.0" rel="stylesheet">
+    <link href="ADMIN_FONTS/font-awesome.css" rel="stylesheet">
+
+    <link href="ADMIN_CSS/animate.css" rel="stylesheet">
+    <link href="ADMIN_CSS/style.css?v=2.2.0" rel="stylesheet">
+
+</head>
+
+<body class="pace-done">
+    <div class="pace  pace-inactive">
+        <div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+            <div class="pace-progress-inner"></div>
+        </div>
+        <div class="pace-activity"></div>
+    </div>
+    <div id="wrapper">
+        <!-- 侧栏 -->
+        {include file="public/left" /}
+        <!-- 侧栏 -->
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            <!-- 头部 -->
+            {include file="public/header" /}
+            <!-- 头部 -->
+            <!-- 面包导航 -->
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-sm-4">
+                    <h2>当前位置</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">主页</a>
+                        </li>
+                        <li>
+                            <strong>包屑导航</strong>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-sm-8">
+                    <div class="title-action">
+                        <a href="" class="btn btn-primary">活动区域</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 主页面 -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="wrapper wrapper-content">
+                        <div class="middle-box text-center animated fadeInRightBig">
+                            <h3 class="font-bold">这里是页面内容</h3>
+
+                            <div class="error-desc">
+                                您可以在这里添加栅格，参考首页及其他页面完成不同的布局
+                                <br><a href="index.html" class="btn btn-primary m-t">打开主页</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 主页面 -->
+
+            <!-- 尾部 -->
+            {include file="public/footer" /}
+
+        </div>
+    </div>
+
+
+    <!-- Mainly scripts -->
+    <script src="ADMIN_JS/jquery-3.2.1.min.js"></script>
+    <script src="ADMIN_JS/bootstrap.min.js?v=3.4.0"></script>
+    <script src="ADMIN_JS/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="ADMIN_JS/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="ADMIN_JS/hplus.js?v=2.2.0"></script>
+    <script src="ADMIN_JS/plugins/pace/pace.min.js"></script>
+
+
+
+
+    <!-- 尾部 -->
+    {include file="public/tool" /}
+    <!-- 尾部 -->
+
+
+
+</body>
+
+</html>

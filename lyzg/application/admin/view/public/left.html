@@ -1,0 +1,65 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav" id="side-menu">
+            <li class="nav-header">
+
+                <div class="dropdown profile-element"> <span>
+                            <img alt="image" class="img-circle" src="ADMIN_IMG/profile_small.jpg">
+                             </span>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                        <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold"><?php echo session('nickname') ?></strong>
+                             </span> <span class="text-muted text-xs block"><?php echo session('groupname') ?><b class="caret"></b></span> </span>
+                    </a>
+                    <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                        <!-- <li><a href="form_avatar.html">修改头像</a>
+                        </li>
+                        <li><a href="profile.html">个人资料</a>
+                        </li>
+                        <li><a href="contacts.html">联系我们</a>
+                        </li>
+                        <li><a href="mailbox.html">信箱</a>
+                        </li>
+                        <li class="divider"></li> -->
+                        <li><a href="{:url('Login/logout')}">安全退出</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo-element">
+                    AD
+                </div>
+
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-windows"></i> <span class="nav-label">网站系统管理</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="{:url('Admin/index')}">管理员管理</a>
+                    </li>
+
+                    <!-- <li><a href="{:url('About/index')}">关于我们</a>
+                    </li>
+                    <li><a href="{:url('Contact/index')}">联系我们</a>
+                    </li> -->
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"><i class="fa fa-indent"></i> <span class="nav-label">在线答疑</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+
+                    <li><a href="{:url('consult/index')}">查看回复</a>
+                    </li>
+
+
+                </ul>
+            </li>
+
+
+
+
+
+
+
+        </ul>
+
+    </div>
+</nav>

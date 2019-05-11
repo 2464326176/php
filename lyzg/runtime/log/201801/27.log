@@ -1,0 +1,3292 @@
+---------------------------------------------------------------
+[ 2018-01-27T09:36:26+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/admin/login/index.html
+[ info ] localhost/lyzg/public/index.php/admin/login/index.html [运行时间：2.288936s][吞吐率：0.44req/s] [内存消耗：1,466.36kb] [文件加载：51]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-27T09:36:53+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/admin/login/index.html
+[ info ] localhost/lyzg/public/index.php/admin/login/index.html [运行时间：1.091864s][吞吐率：0.92req/s] [内存消耗：2,174.97kb] [文件加载：59]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '29',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.361604s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_user` [ RunTime:0.102352s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_user` `a` INNER JOIN `lyzg_usergroup` `b` ON `a`.`levelname`=`b`.`group_id` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.092456s ]
+[ sql ] [ SQL ] UPDATE `lyzg_user`  SET `loginnum`=68,`loginip`='0.0.0.0',`logintime`=1517017012  WHERE  `uid` = 1 [ RunTime:0.092822s ]
+---------------------------------------------------------------
+[ 2018-01-27T09:36:53+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/admin/index/index.html
+[ info ] localhost/lyzg/public/index.php/admin/index/index.html [运行时间：0.356260s][吞吐率：2.81req/s] [内存消耗：1,967.00kb] [文件加载：56]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126985s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.052131s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.050798s ]
+---------------------------------------------------------------
+[ 2018-01-27T09:41:13+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/admin/login/index.html
+[ info ] localhost/lyzg/public/index.php/admin/login/index.html [运行时间：0.124105s][吞吐率：8.06req/s] [内存消耗：1,349.86kb] [文件加载：49]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-27T09:41:27+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/admin/login/index.html
+[ info ] localhost/lyzg/public/index.php/admin/login/index.html [运行时间：0.336932s][吞吐率：2.97req/s] [内存消耗：2,175.50kb] [文件加载：59]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '29',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.081909s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_user` [ RunTime:0.051659s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_user` `a` INNER JOIN `lyzg_usergroup` `b` ON `a`.`levelname`=`b`.`group_id` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.047687s ]
+[ sql ] [ SQL ] UPDATE `lyzg_user`  SET `loginnum`=69,`loginip`='0.0.0.0',`logintime`=1517017287  WHERE  `uid` = 1 [ RunTime:0.047247s ]
+---------------------------------------------------------------
+[ 2018-01-27T09:41:28+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/admin/index/index.html
+[ info ] localhost/lyzg/public/index.php/admin/index/index.html [运行时间：0.341576s][吞吐率：2.93req/s] [内存消耗：1,967.00kb] [文件加载：56]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137031s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.047463s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.045603s ]
+---------------------------------------------------------------
+[ 2018-01-27T09:46:59+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/admin/index/index.html
+[ info ] localhost/lyzg/public/index.php/admin/index/index.html [运行时间：0.413227s][吞吐率：2.42req/s] [内存消耗：1,967.06kb] [文件加载：56]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.092638s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.070664s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.058417s ]
+---------------------------------------------------------------
+[ 2018-01-27T09:47:15+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index
+[ info ] localhost/lyzg/public/index.php/index/index [运行时间：0.671519s][吞吐率：1.49req/s] [内存消耗：2,135.73kb] [文件加载：58]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\index.html [ array (
+  0 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.070730s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.053048s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.049416s ]
+---------------------------------------------------------------
+[ 2018-01-27T09:52:29+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/test
+[ info ] localhost/lyzg/public/index.php/index/test [运行时间：0.607251s][吞吐率：1.65req/s] [内存消耗：1,093.54kb] [文件加载：41]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-27T09:52:33+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/testpaper
+[ info ] localhost/lyzg/public/index.php/index/testpaper [运行时间：0.032853s][吞吐率：30.44req/s] [内存消耗：1,093.55kb] [文件加载：41]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'testpaper',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-27T09:52:42+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/testpaper
+[ info ] localhost/lyzg/public/index.php/index/index/testpaper [运行时间：0.277241s][吞吐率：3.61req/s] [内存消耗：1,893.18kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testpaper',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->testpaper[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.116270s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.046740s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.050246s ]
+[ error ] [0]模板文件不存在:D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\testpaper.html[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-01-27T09:53:14+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/testpaper
+[ info ] localhost/lyzg/public/index.php/index/index/testpaper [运行时间：0.349458s][吞吐率：2.86req/s] [内存消耗：2,142.51kb] [文件加载：60]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testpaper',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->testpaper[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\testpaper.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.113015s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.043542s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.043219s ]
+[ error ] [8]未定义变量: user_id[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\runtime\temp\b685d89d4145ef0185fc6d9133f6325b.php:34]
+---------------------------------------------------------------
+[ 2018-01-27T09:53:36+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/testpaper
+[ info ] localhost/lyzg/public/index.php/index/index/testpaper [运行时间：0.436251s][吞吐率：2.29req/s] [内存消耗：1,947.92kb] [文件加载：56]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testpaper',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->testpaper[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\testpaper.html [ array (
+  0 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.154478s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.102066s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.102991s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:03:02+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/testpaper
+[ info ] localhost/lyzg/public/index.php/index/index/testpaper [运行时间：1.014211s][吞吐率：0.99req/s] [内存消耗：2,113.28kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testpaper',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->testpaper[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\testpaper.html [ array (
+  0 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.429487s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.065619s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.051017s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:04:27+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/testpaper
+[ info ] localhost/lyzg/public/index.php/index/index/testpaper [运行时间：0.320934s][吞吐率：3.12req/s] [内存消耗：2,113.28kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testpaper',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->testpaper[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\testpaper.html [ array (
+  0 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.118849s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.046153s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.050525s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:05:54+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/testpaper
+[ info ] localhost/lyzg/public/index.php/index/index/testpaper [运行时间：0.246423s][吞吐率：4.06req/s] [内存消耗：2,113.28kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testpaper',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->testpaper[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\testpaper.html [ array (
+  0 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.073267s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.042810s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.044329s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:06:27+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/testpaper
+[ info ] localhost/lyzg/public/index.php/index/index/testpaper [运行时间：0.251399s][吞吐率：3.98req/s] [内存消耗：2,113.28kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testpaper',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->testpaper[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\testpaper.html [ array (
+  0 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.097396s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.036791s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.046304s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:08:55+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/testpaper
+[ info ] localhost/lyzg/public/index.php/index/index/testpaper [运行时间：0.404400s][吞吐率：2.47req/s] [内存消耗：2,113.31kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testpaper',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->testpaper[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\testpaper.html [ array (
+  0 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138191s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.094382s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.090945s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:11:18+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/home
+[ info ] localhost/lyzg/public/index.php/index/index/home [运行时间：1.041553s][吞吐率：0.96req/s] [内存消耗：2,072.03kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\home.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.449046s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.377399s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.112887s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:11:20+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/js/jquery.min.js
+[ info ] localhost/lyzg/public/index.php/index/index/js/jquery.min.js [运行时间：0.912018s][吞吐率：1.10req/s] [内存消耗：1,886.98kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/home',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.174716s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.117841s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.114773s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:13:26+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/home
+[ info ] localhost/lyzg/public/index.php/index/index/home [运行时间：0.423673s][吞吐率：2.36req/s] [内存消耗：2,068.72kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Mobile Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\home.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137904s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.085328s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.061416s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:24:30+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.394175s][吞吐率：2.54req/s] [内存消耗：2,081.07kb] [文件加载：58]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.102817s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.062855s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.060532s ]
+[ error ] [0]致命错误: Call to undefined function U()[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\runtime\temp\c9c73a388107295dfdb312d1f320ef57.php:15]
+---------------------------------------------------------------
+[ 2018-01-27T10:24:56+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.265592s][吞吐率：3.77req/s] [内存消耗：2,122.96kb] [文件加载：58]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.110297s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.047574s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.048775s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:25:02+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/uppic.html
+[ info ] localhost/lyzg/public/index.php/index/index/uppic.html [运行时间：0.314115s][吞吐率：3.18req/s] [内存消耗：1,888.66kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'uppic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryT8qQg2CjqNCO95TQ',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '153334',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.086533s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.059593s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.068121s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:26:12+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.222126s][吞吐率：4.50req/s] [内存消耗：2,127.42kb] [文件加载：58]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063353s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.043729s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.044479s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:26:17+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/uppic.html
+[ info ] localhost/lyzg/public/index.php/index/index/uppic.html [运行时间：0.446899s][吞吐率：2.24req/s] [内存消耗：1,895.75kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'uppic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrYGrdwaANJDchhid',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '153334',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->uppic[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.143360s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.093964s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.097533s ]
+[ error ] [0]致命错误: Class 'app\index\controller\UploadFile' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:55]
+---------------------------------------------------------------
+[ 2018-01-27T10:53:39+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.628114s][吞吐率：1.59req/s] [内存消耗：2,076.73kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.195029s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.094438s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.094509s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:53:39+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/images/loading.gif
+[ info ] localhost/lyzg/public/index.php/index/index/images/loading.gif [运行时间：0.356183s][吞吐率：2.81req/s] [内存消耗：1,887.21kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.101818s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.036258s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.035940s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:00:37+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.244768s][吞吐率：4.09req/s] [内存消耗：2,077.14kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.073326s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.039474s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.039243s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:00:37+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/images/loading.gif
+[ info ] localhost/lyzg/public/index.php/index/index/images/loading.gif [运行时间：0.383461s][吞吐率：2.61req/s] [内存消耗：1,887.21kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.111658s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.043647s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.043884s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:03:59+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.433540s][吞吐率：2.31req/s] [内存消耗：1,896.48kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158143s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.101468s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.101656s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:04:00+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/images/loading.gif
+[ info ] localhost/lyzg/public/index.php/index/index/images/loading.gif [运行时间：0.233932s][吞吐率：4.27req/s] [内存消耗：1,887.58kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.077431s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.055567s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.037535s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:05:47+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.311711s][吞吐率：3.21req/s] [内存消耗：2,077.51kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124087s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.059989s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.056953s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:05:47+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/images/loading.gif
+[ info ] localhost/lyzg/public/index.php/index/index/images/loading.gif [运行时间：0.278034s][吞吐率：3.60req/s] [内存消耗：1,887.58kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.084610s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.048526s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.047343s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:05:52+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024 [运行时间：0.292748s][吞吐率：3.42req/s] [内存消耗：1,897.59kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJQdwfdZLzxoMhSyr',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '153334',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.121496s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.051710s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.054415s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:05:52+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/images/loading.gif
+[ info ] localhost/lyzg/public/index.php/index/index/images/loading.gif [运行时间：0.438968s][吞吐率：2.28req/s] [内存消耗：1,887.73kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.172485s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.100016s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.098567s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:06:54+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.403041s][吞吐率：2.48req/s] [内存消耗：2,077.51kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.147241s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.097636s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.096292s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:06:58+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024 [运行时间：0.231266s][吞吐率：4.32req/s] [内存消耗：1,897.59kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAAVsBNbWPoPJGaBr',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '153334',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.075361s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.049934s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.048704s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:07:54+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.272208s][吞吐率：3.67req/s] [内存消耗：2,077.51kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.087332s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.049272s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.049562s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:08:27+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.404957s][吞吐率：2.47req/s] [内存消耗：1,896.48kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.146841s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.096342s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.097955s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:08:44+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ajax_form.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ajax_form.html?form_name=userfile&file_size=1024 [运行时间：0.504014s][吞吐率：1.98req/s] [内存消耗：1,994.73kb] [文件加载：56]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ajax_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQCA6fJLqNvikENAw',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '12570',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ajax_form[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.144289s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.093974s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.093364s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:09:04+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.235716s][吞吐率：4.24req/s] [内存消耗：1,896.07kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.065319s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.053852s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.037788s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:09:09+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ajax_form.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ajax_form.html?form_name=userfile&file_size=1024 [运行时间：0.310202s][吞吐率：3.22req/s] [内存消耗：1,994.73kb] [文件加载：56]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ajax_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6l4VMryBvsy8XRFZ',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '153334',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ajax_form[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.112045s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.050487s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.049693s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:11:21+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.251266s][吞吐率：3.98req/s] [内存消耗：1,896.07kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.071017s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.051203s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.046495s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:11:25+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ajax_form.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ajax_form.html?form_name=userfile&file_size=1024 [运行时间：0.243046s][吞吐率：4.11req/s] [内存消耗：1,994.73kb] [文件加载：56]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ajax_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZSxSET3Net3Nhgj4',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '153334',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ajax_form[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.076449s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.043897s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.042737s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:11:35+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.234963s][吞吐率：4.26req/s] [内存消耗：1,896.07kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068356s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.042997s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.043384s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:11:57+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.427779s][吞吐率：2.34req/s] [内存消耗：1,896.50kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.161089s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.101573s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.100910s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:12:01+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ajax_form.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ajax_form.html?form_name=userfile&file_size=1024 [运行时间：0.445421s][吞吐率：2.25req/s] [内存消耗：1,994.75kb] [文件加载：56]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ajax_form',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryy2WqCJOqdtB1NKv1',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '153334',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ajax_form[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.146720s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.100030s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.098103s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:12:29+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/home
+[ info ] localhost/lyzg/public/index.php/index/index/home [运行时间：0.617193s][吞吐率：1.62req/s] [内存消耗：2,069.28kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->home[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\home.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.387936s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.047412s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.054905s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:12:32+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.236670s][吞吐率：4.23req/s] [内存消耗：2,077.13kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.073307s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.047498s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.046247s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:12:37+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024 [运行时间：0.634544s][吞吐率：1.58req/s] [内存消耗：1,886.68kb] [文件加载：53]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCneyWucFpR9sASLB',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '153334',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.181916s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.183624s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.140168s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:12:51+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024 [运行时间：0.300384s][吞吐率：3.33req/s] [内存消耗：1,896.67kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.104233s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.060525s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.057855s ]
+---------------------------------------------------------------
+[ 2018-01-27T13:41:55+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/admin/index/index.html
+[ info ] localhost/lyzg/public/index.php/admin/index/index.html [运行时间：1.435303s][吞吐率：0.70req/s] [内存消耗：1,967.00kb] [文件加载：56]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.145882s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.049838s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.035166s ]
+---------------------------------------------------------------
+[ 2018-01-27T13:45:15+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.652622s][吞吐率：1.53req/s] [内存消耗：1,896.87kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.104767s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.047035s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.044738s ]
+---------------------------------------------------------------
+[ 2018-01-27T13:45:25+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.246568s][吞吐率：4.06req/s] [内存消耗：1,897.27kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4a3bove5hq8m68s54emv38vqn1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.104804s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.043404s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.043115s ]
+---------------------------------------------------------------
+[ 2018-01-27T15:45:59+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/admin
+[ info ] localhost/lyzg/public/index.php/admin [运行时间：0.103516s][吞吐率：9.66req/s] [内存消耗：1,349.05kb] [文件加载：50]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-27T15:46:02+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/
+[ info ] localhost/lyzg/public/index.php/index/index/ [运行时间：0.377930s][吞吐率：2.65req/s] [内存消耗：1,949.46kb] [文件加载：56]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=mn4p5tgs1s18ik29kkuc3dopm6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\index.html [ array (
+  0 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.157226s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.074219s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.087890s ]
+---------------------------------------------------------------
+[ 2018-01-27T15:46:10+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.502930s][吞吐率：1.99req/s] [内存消耗：1,897.57kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=mn4p5tgs1s18ik29kkuc3dopm6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.235351s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.111328s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.101563s ]
+---------------------------------------------------------------
+[ 2018-01-27T16:13:47+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：0.520507s][吞吐率：1.92req/s] [内存消耗：1,894.70kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=mn4p5tgs1s18ik29kkuc3dopm6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.210937s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.114257s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.121094s ]
+[ error ] [0]致命错误: Class 'app\index\controller\Site' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:49]
+---------------------------------------------------------------
+[ 2018-01-27T16:25:16+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：0.258789s][吞吐率：3.86req/s] [内存消耗：1,893.53kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=mn4p5tgs1s18ik29kkuc3dopm6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.114257s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.047852s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.048828s ]
+[ error ] [0]致命错误: Class 'org\index\Site' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:49]
+---------------------------------------------------------------
+[ 2018-01-27T16:25:34+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：0.291992s][吞吐率：3.42req/s] [内存消耗：1,892.96kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=mn4p5tgs1s18ik29kkuc3dopm6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128906s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.059570s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.066406s ]
+[ error ] [0]致命错误: Class 'org\index\Site' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:49]
+---------------------------------------------------------------
+[ 2018-01-27T16:27:12+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：2.029297s][吞吐率：0.49req/s] [内存消耗：1,892.96kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=mn4p5tgs1s18ik29kkuc3dopm6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.410156s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.160157s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.420898s ]
+[ error ] [0]致命错误: Class 'org\index\Site' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:49]
+---------------------------------------------------------------
+[ 2018-01-27T16:30:20+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：0.794922s][吞吐率：1.26req/s] [内存消耗：1,893.46kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=mn4p5tgs1s18ik29kkuc3dopm6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.575195s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.098632s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.074219s ]
+[ error ] [0]致命错误: Class 'app\index\controller\ArrayList' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:50]
+---------------------------------------------------------------
+[ 2018-01-27T16:30:44+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：0.535156s][吞吐率：1.87req/s] [内存消耗：1,893.41kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=mn4p5tgs1s18ik29kkuc3dopm6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.114258s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.072266s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.311523s ]
+[ error ] [0]致命错误: Class 'org\uitl\ArrayList' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:50]
+---------------------------------------------------------------
+[ 2018-01-27T16:31:57+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：0.255859s][吞吐率：3.91req/s] [内存消耗：1,893.40kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=mn4p5tgs1s18ik29kkuc3dopm6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.088867s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.062500s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.067382s ]
+[ error ] [0]致命错误: Class 'org\uitl\ArrayList' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:50]
+---------------------------------------------------------------
+[ 2018-01-27T16:32:00+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：0.370117s][吞吐率：2.70req/s] [内存消耗：1,893.40kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=mn4p5tgs1s18ik29kkuc3dopm6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.144531s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.093750s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.094727s ]
+[ error ] [0]致命错误: Class 'org\uitl\ArrayList' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:50]
+---------------------------------------------------------------
+[ 2018-01-27T16:32:44+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：0.652344s][吞吐率：1.53req/s] [内存消耗：1,893.40kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=mn4p5tgs1s18ik29kkuc3dopm6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.191406s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.351562s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.062500s ]
+[ error ] [0]致命错误: Class 'org\util\ArrayList' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:50]
+---------------------------------------------------------------
+[ 2018-01-27T16:36:32+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：21.044922s][吞吐率：0.05req/s] [内存消耗：1,803.47kb] [文件加载：52]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-27T16:36:40+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/
+[ info ] localhost/lyzg/public/index.php/index/index/ [运行时间：21.053711s][吞吐率：0.05req/s] [内存消耗：1,803.16kb] [文件加载：52]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-27T16:36:46+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：5.225586s][吞吐率：0.19req/s] [内存消耗：1,893.05kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.896485s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.909180s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.381836s ]
+[ error ] [0]致命错误: Class 'org\util\ArrayList' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:50]
+---------------------------------------------------------------
+[ 2018-01-27T16:38:52+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：5.523437s][吞吐率：0.18req/s] [内存消耗：1,894.34kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.181641s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:2.201172s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.092773s ]
+[ error ] [0]致命错误: Class 'app\index\controller\Site' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:49]
+---------------------------------------------------------------
+[ 2018-01-27T16:41:04+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：0.425781s][吞吐率：2.35req/s] [内存消耗：1,892.90kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.151368s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.108399s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.119141s ]
+[ error ] [0]致命错误: Class 'org\util\ArrayList' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:49]
+---------------------------------------------------------------
+[ 2018-01-27T16:42:11+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：0.024414s][吞吐率：40.96req/s] [内存消耗：1,119.45kb] [文件加载：42]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Controller' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:11]
+---------------------------------------------------------------
+[ 2018-01-27T16:44:00+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：3.214844s][吞吐率：0.31req/s] [内存消耗：1,893.47kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.084961s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.039062s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.042969s ]
+[ error ] [0]致命错误: Class 'org\util\ArrayList' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:49]
+---------------------------------------------------------------
+[ 2018-01-27T16:46:34+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：3.209961s][吞吐率：0.31req/s] [内存消耗：1,892.90kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.063476s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.052735s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.046875s ]
+[ error ] [0]致命错误: Class 'org\util\ArrayList' not found[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:49]
+---------------------------------------------------------------
+[ 2018-01-27T16:51:32+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/pro
+[ info ] localhost/lyzg/public/index.php/index/index/pro [运行时间：0.515625s][吞吐率：1.94req/s] [内存消耗：1,889.69kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->pro[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068359s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.351562s ]
+---------------------------------------------------------------
+[ 2018-01-27T16:57:59+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/admin/consult/
+[ info ] localhost/lyzg/public/index.php/admin/consult/ [运行时间：0.054688s][吞吐率：18.29req/s] [内存消耗：1,367.23kb] [文件加载：50]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'consult',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-27T16:58:02+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/admin/login/index.html
+[ info ] localhost/lyzg/public/index.php/admin/login/index.html [运行时间：0.040039s][吞吐率：24.98req/s] [内存消耗：1,351.24kb] [文件加载：49]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin/consult/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-27T16:58:12+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.236328s][吞吐率：4.23req/s] [内存消耗：1,897.63kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.112305s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.038086s ]
+---------------------------------------------------------------
+[ 2018-01-27T16:58:17+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024 [运行时间：0.794922s][吞吐率：1.26req/s] [内存消耗：1,812.09kb] [文件加载：50]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryS3meZaEui28ijdvy',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '80318',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.094726s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.288086s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.361328s ]
+---------------------------------------------------------------
+[ 2018-01-27T16:58:18+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/upload/151704349757534985.jpg
+[ info ] localhost/lyzg/public/index.php/index/index/upload/151704349757534985.jpg [运行时间：0.415039s][吞吐率：2.41req/s] [内存消耗：1,889.17kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.156250s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.106445s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.113281s ]
+---------------------------------------------------------------
+[ 2018-01-27T16:58:33+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.364258s][吞吐率：2.75req/s] [内存消耗：1,897.91kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134766s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.093750s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.093750s ]
+---------------------------------------------------------------
+[ 2018-01-27T16:59:02+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.250000s][吞吐率：4.00req/s] [内存消耗：1,897.91kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.108398s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.045898s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.045898s ]
+---------------------------------------------------------------
+[ 2018-01-27T16:59:05+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024 [运行时间：0.239258s][吞吐率：4.18req/s] [内存消耗：1,812.09kb] [文件加载：50]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryixVm9PqbXCf86rmz',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '80318',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.119141s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.040039s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.035156s ]
+---------------------------------------------------------------
+[ 2018-01-27T16:59:06+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/upload/15170435456651260.jpg
+[ info ] localhost/lyzg/public/index.php/index/index/upload/15170435456651260.jpg [运行时间：0.742187s][吞吐率：1.35req/s] [内存消耗：1,889.17kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.166016s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.404296s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.132813s ]
+---------------------------------------------------------------
+[ 2018-01-27T17:00:02+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.225586s][吞吐率：4.43req/s] [内存消耗：2,078.95kb] [文件加载：57]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.070312s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.060547s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.044922s ]
+---------------------------------------------------------------
+[ 2018-01-27T17:00:05+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024 [运行时间：0.214844s][吞吐率：4.65req/s] [内存消耗：1,812.09kb] [文件加载：50]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarym2JAMUHL0mE1tffF',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '80318',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.074219s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.047852s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.047852s ]
+---------------------------------------------------------------
+[ 2018-01-27T17:00:05+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/upload/151704360522863317.jpg
+[ info ] localhost/lyzg/public/index.php/index/index/upload/151704360522863317.jpg [运行时间：0.703125s][吞吐率：1.42req/s] [内存消耗：1,889.17kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.151367s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.116211s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.397461s ]
+---------------------------------------------------------------
+[ 2018-01-27T17:14:57+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.454101s][吞吐率：2.20req/s] [内存消耗：1,898.48kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.157226s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.102539s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.109375s ]
+---------------------------------------------------------------
+[ 2018-01-27T17:15:01+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024 [运行时间：0.196289s][吞吐率：5.09req/s] [内存消耗：1,903.00kb] [文件加载：56]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAqtUFJ7oORyN2UuI',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '80318',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060547s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.044922s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.038086s ]
+[ error ] [2]mkdir(): No such file or directory[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\extend\org\util\AjaxUpload.php:42]
+---------------------------------------------------------------
+[ 2018-01-27T17:15:20+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.234375s][吞吐率：4.27req/s] [内存消耗：1,897.91kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.077148s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.050781s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.059571s ]
+---------------------------------------------------------------
+[ 2018-01-27T17:15:23+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024 [运行时间：0.269532s][吞吐率：3.71req/s] [内存消耗：1,903.00kb] [文件加载：56]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydOjlNneIVymUlYRk',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '80318',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.086915s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.059570s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.072266s ]
+[ error ] [2]mkdir(): No such file or directory[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\extend\org\util\AjaxUpload.php:42]
+---------------------------------------------------------------
+[ 2018-01-27T17:16:37+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [运行时间：0.255860s][吞吐率：3.91req/s] [内存消耗：1,897.91kb] [文件加载：55]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/index\view\index\ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.089844s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.062500s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.061524s ]
+---------------------------------------------------------------
+[ 2018-01-27T17:16:41+08:00 ] 0.0.0.0 POST /lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi.html?form_name=userfile&file_size=1024 [运行时间：0.183593s][吞吐率：5.45req/s] [内存消耗：1,812.30kb] [文件加载：50]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvAmLkvPHG60HJ6bc',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '80318',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'form_name' => 'userfile',
+  'file_size' => '1024',
+  'info' => '文件类型为图片',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056641s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.039062s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.036133s ]
+---------------------------------------------------------------
+[ 2018-01-27T17:16:41+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/upload/15170446015895255.jpg
+[ info ] localhost/lyzg/public/index.php/index/index/upload/15170446015895255.jpg [运行时间：0.166016s][吞吐率：6.02req/s] [内存消耗：1,889.17kb] [文件加载：54]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '7e1a___session=6df0MRfujuszOod%2F2eUELbwPG72hmR01g1o4NbwO%2FNC3ZZkK4TWorkrhOPUE4MS%2B7agKhkDPBEpFNxPwU0KG%2FZzJzsHR1masxczHxgM%2FkezQzCzWfDazotDc%2FZEbeykvl1zHfS2zwyJhBiZZp4OrYh6IyQ5gI3uNUckI6Kq2FC5dQ7%2BhRA; 7e1a___switch=Rdm5f; 7e1a___uniacid=1; 7e1a___uid=1; 91d4___lastvisit_2=%2Chttp%3A//localhost/web/index.php%3Fc%3Dhelp%26a%3Ddisplay; PHPSESSID=8lm2d4o52qkk5e4m7uti0qscd1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/index/index/ceshi',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053711s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.037110s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.036133s ]

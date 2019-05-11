@@ -1,0 +1,29 @@
+---------------------------------------------------------------
+[ 2018-02-13T22:52:36+08:00 ] 0.0.0.0 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] localhost/lyzg/public/index.php/index/index/ceshi [è¿è¡Œæ—¶é—´ï¼š4.370151s][ååç‡ï¼š0.23req/s] [å†…å­˜æ¶ˆè€—ï¼š1,800.37kb] [æ–‡ä»¶åŠ è½½ï¼š52]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-bf069ff8=13b54536-8bac-40dd-a4af-052407f8ded3; Hm_lvt_64ecd82404c51e03dc91cb9e8c025574=1517315364',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÏòÒ»¸öÎŞ·¨Á¬½ÓµÄÍøÂç³¢ÊÔÁËÒ»¸öÌ×½Ó×Ö²Ù×÷¡£
+[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\library\think\db\Connection.php:293]

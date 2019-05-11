@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+<view>
+<image src="../../image/index.png" style="width: 412px; height: 275px;">
+</image>
+</view>
+
+<view class='view_cen mt20 white' bindtap="jump_good">
+加入一个好玩的打卡
+</view>
+
+<view class='view_cen mt20 green' bindtap="jump_new">
++ 创建一个新的打卡
+</view>
+<!-- <view class='view_left mt20'>
+我参与的打卡
+</view>
+<view class='view_whole mt20 white_whole'>
+暂无打卡项目
+</view>
+
+<view class='view_gen mt20' bindtap="jump_history">
+更多历史打卡 
+<image src='../../image/s_arr_r.png' class='image_g'></image>
+</view> -->
+

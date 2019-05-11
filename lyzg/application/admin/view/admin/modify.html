@@ -1,0 +1,240 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <title>管理员修改页面</title>
+    <link href="ADMIN_CSS/bootstrap.min.css?v=3.4.0" rel="stylesheet">
+    <link href="ADMIN_FONTS/font-awesome.css" rel="stylesheet">
+
+    <link href="ADMIN_CSS/animate.css" rel="stylesheet">
+    <link href="ADMIN_CSS/style.css?v=2.2.0" rel="stylesheet">
+</head>
+
+<body class="pace-done">
+    <div class="pace  pace-inactive">
+        <div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+            <div class="pace-progress-inner"></div>
+        </div>
+        <div class="pace-activity"></div>
+    </div>
+    <div id="wrapper">
+        <!-- 侧栏 -->
+        {include file="public/left" /}
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            {include file="public/header" /}
+
+            <!-- 面包导航 -->
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-sm-4">
+                    <h2>当前页面</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">管理员主页面</a>
+                        </li>
+                        <li>
+                            <strong>管理员修改页面</strong>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-sm-8">
+                    <div class="title-action">
+                        <a href="" class="btn btn-primary">活动区域</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 主页面 -->
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>管理员修改页面</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            {volist name="data" id="vo"}
+                            <form class="form-horizontal m-t" method="post" onsubmit="return CheckForm()" action="{:url('Admin/modify?uid='.$vo['uid'])}" id="signupForm" novalidate="novalidate">
+                                <input type="hidden" value="{$vo.uid}" name="uid" id="uid">
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">账号：</label>
+                                    <div class="col-sm-8">
+                                        <input id="username" value="{$vo.username}" name="username" class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">昵称：</label>
+                                    <div class="col-sm-8">
+                                        <input id="nickname" name="nickname" value="{$vo.nickname}" class="form-control" type="text" aria-required="true" aria-invalid="false">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">旧密码：</label>
+                                    <div class="col-sm-8">
+                                        <input id="oldpassword" name="oldpassword" class="form-control" type="password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">新密码：</label>
+                                    <div class="col-sm-8">
+                                        <input id="password" name="password" class="form-control" type="password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">确认密码：</label>
+                                    <div class="col-sm-8">
+                                        <input id="repassword" name="repassword" class="form-control" type="password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">管理员组：</label>
+                                    <div class="col-sm-8">
+                                        <select name="levelname" id="levelname" class="form-control">
+                                            {foreach name="usergroup" item="v"}
+                                        <option value="{$v.group_id}" {eq name="v.group_id" value="$vo.levelname"}selected{else/}{/eq}>{$v.groupname}</option>
+                                            {/foreach}
+                                       </select>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">审核：</label>
+                                    <div class="col-sm-8">
+                                        已审核<input type="radio" name="checkstate" value="true" {eq name="vo.checkstate" value="true" }checked{else/}{/eq}> 未审核
+                                        <input type="radio" name="checkstate" value="false" {eq name="vo.checkstate" value="false" }checked{else/}{/eq}>
+
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-8 col-sm-offset-3">
+                                        <button class="btn btn-primary" type="submit">修改</button>
+                                        <a class="btn btn-white" onclick="history.go(-1)">取消返回</a>
+                                    </div>
+                                </div>
+                            </form>
+                            {/volist}
+                        </div>
+
+
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-content">
+                                <p class="m-t" style="color:red;">友情提示1：若不修改密码，旧密码，新密码，确认密码，请留空 </p>
+                                <p class="m-t" style="color:red;">友情提示2：若修改密码，请填写正确的旧密码 </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 主页面 -->
+
+            <!-- 尾部 -->
+            {include file="public/footer" /}
+
+        </div>
+    </div>
+
+
+    <!-- Mainly scripts -->
+    <script src="ADMIN_JS/jquery-3.2.1.min.js"></script>
+    <script src="ADMIN_JS/bootstrap.min.js?v=3.4.0"></script>
+    <script src="ADMIN_JS/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="ADMIN_JS/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+
+    <!-- Custom and plugin javascript -->
+    <script src="ADMIN_JS/hplus.js?v=2.2.0"></script>
+    <script src="ADMIN_JS/plugins/pace/pace.min.js"></script>
+    <script type="text/javascript">
+        $('#oldpassword').change(function() {
+
+            $.ajax({
+                type: "post",
+                url: "{:url('Admin/ajaxpwd')}",
+                data: {
+                    id: $('#id').val(),
+                    password: $('#oldpassword').val()
+                },
+                dataType: "json",
+                success: function(data) {
+                    CheckForm();
+                },
+                error: function(data) {
+                    alert('原始密码输入错误');
+                    $("#oldpassword").focus();
+                    return false;
+                }
+            });
+        });
+
+
+        function CheckForm() {
+            if ($("#password").val() == "") {
+                if ($("#repassword").val() != "") {
+                    alert("请填写新密码！");
+                    $("#password").focus();
+                    return false;
+
+                }
+
+            } else {
+                if ($("#password").val().length < 5 || $("#password").val().length > 20) {
+                    alert("密码由5-20个字符组成，区分大小写！");
+                    $("#password").focus();
+                    return false;
+                } else {
+                    if ($("#repassword").val() == "") {
+                        alert("请填写确认密码！");
+                        $("#repassword").focus();
+                        return false;
+
+                    } else {
+                        if ($("#password").val() != $("#repassword").val()) {
+                            alert("两次密码不同！");
+                            $("#repassword").focus();
+                            return false;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+            if ($("#nickname").val() == "") {
+                alert("请填写姓名！");
+                $("#nickname").focus();
+                return false;
+            }
+            if ($("#username").val() == "") {
+                alert("请填写登录账号！");
+                $("#username").focus();
+                return false;
+            }
+        }
+    </script>
+
+
+
+    <!-- 尾部 -->
+    {include file="public/tool" /}
+
+
+
+
+</body>
+
+</html>

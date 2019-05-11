@@ -1,0 +1,517 @@
+---------------------------------------------------------------
+[ 2018-02-23T13:33:23+08:00 ] 127.0.0.1 GET /lyzg/public/index.php
+[ info ] localhost/lyzg/public/index.php [运行时间：0.237304s][吞吐率：4.21req/s] [内存消耗：1,688.97kb] [文件加载：45]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.069336s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.048828s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.047852s ]
+[ error ] [8]未定义数组索引: code[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:30]
+---------------------------------------------------------------
+[ 2018-02-23T13:33:30+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/admin
+[ info ] localhost/lyzg/public/index.php/admin [运行时间：0.059570s][吞吐率：16.79req/s] [内存消耗：1,264.26kb] [文件加载：42]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-23T13:33:32+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/admin/login/index.html
+[ info ] localhost/lyzg/public/index.php/admin/login/index.html [运行时间：0.048828s][吞吐率：20.48req/s] [内存消耗：1,145.57kb] [文件加载：39]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-23T13:33:43+08:00 ] 127.0.0.1 POST /lyzg/public/index.php/admin/login/index.html
+[ info ] localhost/lyzg/public/index.php/admin/login/index.html [运行时间：0.307618s][吞吐率：3.25req/s] [内存消耗：1,971.43kb] [文件加载：49]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '29',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.077149s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_user` [ RunTime:0.055664s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_user` `a` INNER JOIN `lyzg_usergroup` `b` ON `a`.`levelname`=`b`.`group_id` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.049804s ]
+[ sql ] [ SQL ] UPDATE `lyzg_user`  SET `loginnum`=78,`loginip`='127.0.0.1',`logintime`=1519364023  WHERE  `uid` = 1 [ RunTime:0.056641s ]
+---------------------------------------------------------------
+[ 2018-02-23T13:33:43+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/admin/index/index.html
+[ info ] localhost/lyzg/public/index.php/admin/index/index.html [运行时间：0.187500s][吞吐率：5.33req/s] [内存消耗：1,763.61kb] [文件加载：46]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052734s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.037110s ]
+---------------------------------------------------------------
+[ 2018-02-23T13:33:50+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/admin/index/index.html
+[ info ] localhost/lyzg/public/index.php/admin/index/index.html [运行时间：0.236328s][吞吐率：4.23req/s] [内存消耗：1,763.80kb] [文件加载：46]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072266s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.056641s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.045898s ]
+---------------------------------------------------------------
+[ 2018-02-23T13:33:53+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/admin/testpaper/index.html
+[ info ] localhost/lyzg/public/index.php/admin/testpaper/index.html [运行时间：0.335937s][吞吐率：2.98req/s] [内存消耗：1,971.55kb] [文件加载：49]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'testpaper',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Testpaper->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Testpaper.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/admin\view\testpaper\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.070313s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.047852s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.047852s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_consult` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_consult` `a` INNER JOIN `lyzg_testpaper` `b` ON `a`.`openid`=`b`.`user_id` [ RunTime:0.050781s ]
+---------------------------------------------------------------
+[ 2018-02-23T13:33:57+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/admin/consult/index.html
+[ info ] localhost/lyzg/public/index.php/admin/consult/index.html [运行时间：0.357422s][吞吐率：2.80req/s] [内存消耗：1,965.57kb] [文件加载：49]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'consult',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/lyzg/public/index.php/admin/testpaper/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Consult->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\admin\controller\Consult.php ]
+[ info ] [ VIEW ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\public/../application/admin\view\consult\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.080078s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.056640s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.049805s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_consult` [ RunTime:0.049805s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_consult` `a` INNER JOIN `lyzg_content` `b` ON `a`.`openid`=`b`.`user_id` [ RunTime:0.051758s ]
+---------------------------------------------------------------
+[ 2018-02-23T14:42:36+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/
+[ info ] localhost/lyzg/public/index.php/ [运行时间：0.258789s][吞吐率：3.86req/s] [内存消耗：1,689.20kb] [文件加载：45]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.082031s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.055664s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.049805s ]
+[ error ] [8]未定义数组索引: code[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\index\controller\Index.php:30]
+---------------------------------------------------------------
+[ 2018-02-23T14:50:34+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/login/get
+[ info ] localhost/lyzg/public/index.php/wxapi/login/get [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：866.41kb] [文件加载：32]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'login',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:code[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-02-23T14:50:54+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/login/get
+[ info ] localhost/lyzg/public/index.php/wxapi/login/get [运行时间：1.177734s][吞吐率：0.85req/s] [内存消耗：781.68kb] [文件加载：28]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'login',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Login->get[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-23T15:27:18+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/login/grantToken
+[ info ] localhost/lyzg/public/index.php/wxapi/login/grantToken [运行时间：0.030273s][吞吐率：33.03req/s] [内存消耗：864.65kb] [文件加载：32]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'login',
+    2 => 'grantToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:code[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-02-23T15:27:38+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/login/grantToken
+[ info ] localhost/lyzg/public/index.php/wxapi/login/grantToken [运行时间：0.033203s][吞吐率：30.12req/s] [内存消耗：933.17kb] [文件加载：33]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'login',
+    2 => 'grantToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-23T15:28:00+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/login/grantToken
+[ info ] localhost/lyzg/public/index.php/wxapi/login/grantToken [运行时间：1.365234s][吞吐率：0.73req/s] [内存消耗：1,683.38kb] [文件加载：41]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'login',
+    2 => 'grantToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lki8dp1bdrd58kjlt61nibeoa2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wxapi\controller\Login->grantToken[ D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\application\wxapi\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.099609s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_spuser` [ RunTime:0.070313s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_spuser` WHERE  `openid` = 'oIp7r0JniBFyLndTxQ4aj1-o8MIo' LIMIT 1 [ RunTime:0.072265s ]
+[ sql ] [ SQL ] INSERT INTO `lyzg_spuser` (`openid`) VALUES ('oIp7r0JniBFyLndTxQ4aj1-o8MIo') [ RunTime:0.063477s ]

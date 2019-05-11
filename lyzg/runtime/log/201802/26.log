@@ -1,0 +1,57 @@
+---------------------------------------------------------------
+[ 2018-02-26T08:54:50+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/login/get
+[ info ] localhost/lyzg/public/index.php/wxapi/login/get [运行时间：0.047852s][吞吐率：20.90req/s] [内存消耗：864.94kb] [文件加载：32]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'login',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:code[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-02-26T08:54:58+08:00 ] 127.0.0.1 GET /lyzg/public/index.php/wxapi/login/get
+[ info ] localhost/lyzg/public/index.php/wxapi/login/get [运行时间：0.021485s][吞吐率：46.54req/s] [内存消耗：864.57kb] [文件加载：32]
+[ info ] [ LANG ] D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wxapi',
+    1 => 'login',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:code[D:\aliuyuhang\phpstudy\PHPTutorial\WWW\lyzg\thinkphp\library\think\App.php:431]

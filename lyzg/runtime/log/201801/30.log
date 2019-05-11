@@ -1,0 +1,221 @@
+---------------------------------------------------------------
+[ 2018-01-30T10:21:01+08:00 ] 123.52.146.207 GET /lyzg/public/index.php/index/index/testpaper
+[ info ] 47.94.175.62/lyzg/public/index.php/index/index/testpaper [运行时间：0.029896s][吞吐率：33.45req/s] [内存消耗：3,150.50kb] [文件加载：55]
+[ info ] [ LANG ] /webdata/lyzg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testpaper',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.175.62',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->testpaper[ /webdata/lyzg/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /webdata/lyzg/public/../application/index/view/index/testpaper.html [ array (
+  0 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000934s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.000606s ]
+---------------------------------------------------------------
+[ 2018-01-30T10:21:06+08:00 ] 123.52.146.207 GET /lyzg/public/index.php/index/index/
+[ info ] 47.94.175.62/lyzg/public/index.php/index/index/ [运行时间：0.031578s][吞吐率：31.67req/s] [内存消耗：3,429.73kb] [文件加载：58]
+[ info ] [ LANG ] /webdata/lyzg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.175.62',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/lyzg/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /webdata/lyzg/public/../application/index/view/index/index.html [ array (
+  0 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000965s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.001166s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.000613s ]
+---------------------------------------------------------------
+[ 2018-01-30T10:22:00+08:00 ] 183.57.53.196 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] 47.94.175.62/lyzg/public/index.php/index/index/ceshi [运行时间：0.028290s][吞吐率：35.35req/s] [内存消耗：3,149.52kb] [文件加载：55]
+[ info ] [ LANG ] /webdata/lyzg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.175.62',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ /webdata/lyzg/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /webdata/lyzg/public/../application/index/view/index/ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000881s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.001178s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2018-01-30T10:22:01+08:00 ] 223.104.105.198 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] 47.94.175.62/lyzg/public/index.php/index/index/ceshi [运行时间：0.029373s][吞吐率：34.04req/s] [内存消耗：3,149.95kb] [文件加载：55]
+[ info ] [ LANG ] /webdata/lyzg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.175.62',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043807 Mobile Safari/537.36 V1_AND_SQ_7.3.5_776_YYB_D QQ/7.3.5.3385 NetType/4G WebP/0.3.0 Pixel/720',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ /webdata/lyzg/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /webdata/lyzg/public/../application/index/view/index/ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000890s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.001128s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.000551s ]
+---------------------------------------------------------------
+[ 2018-01-30T10:22:01+08:00 ] 223.104.105.198 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] 47.94.175.62/lyzg/public/index.php/index/index/ceshi [运行时间：0.029595s][吞吐率：33.79req/s] [内存消耗：3,149.95kb] [文件加载：55]
+[ info ] [ LANG ] /webdata/lyzg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.175.62',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043807 Mobile Safari/537.36 V1_AND_SQ_7.3.5_776_YYB_D QQ/7.3.5.3385 NetType/4G WebP/0.3.0 Pixel/720',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ /webdata/lyzg/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /webdata/lyzg/public/../application/index/view/index/ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000981s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.000594s ]
+---------------------------------------------------------------
+[ 2018-01-30T10:24:28+08:00 ] 223.104.105.198 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] 47.94.175.62/lyzg/public/index.php/index/index/ceshi [运行时间：0.028609s][吞吐率：34.95req/s] [内存消耗：3,149.95kb] [文件加载：55]
+[ info ] [ LANG ] /webdata/lyzg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.175.62',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043807 Mobile Safari/537.36 V1_AND_SQ_7.3.5_776_YYB_D QQ/7.3.5.3385 NetType/4G WebP/0.3.0 Pixel/720',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ /webdata/lyzg/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /webdata/lyzg/public/../application/index/view/index/ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000900s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.000622s ]
+---------------------------------------------------------------
+[ 2018-01-30T10:24:29+08:00 ] 223.104.105.198 GET /lyzg/public/index.php/index/index/ceshi
+[ info ] 47.94.175.62/lyzg/public/index.php/index/index/ceshi [运行时间：0.028719s][吞吐率：34.82req/s] [内存消耗：3,149.95kb] [文件加载：55]
+[ info ] [ LANG ] /webdata/lyzg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ceshi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.175.62',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043807 Mobile Safari/537.36 V1_AND_SQ_7.3.5_776_YYB_D QQ/7.3.5.3385 NetType/4G WebP/0.3.0 Pixel/720',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->ceshi[ /webdata/lyzg/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /webdata/lyzg/public/../application/index/view/index/ceshi.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000926s ] mysql:host=47.94.175.62;port=3306;dbname=consult;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lyzg_wx` [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT * FROM `lyzg_wx` WHERE  `id` = 1 [ RunTime:0.000617s ]
