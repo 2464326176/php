@@ -1,0 +1,3 @@
+<!--page/web/web.wxml-->
+<!-- <text>page/web/web.wxml</text> -->
+<web-view src="https://gaojian.luoyangzhigui.cn"></web-view>

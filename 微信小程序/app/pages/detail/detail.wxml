@@ -1,0 +1,73 @@
+<view class="detail-page">
+
+    <view class="mod-a">
+        <!-- 任务地点 -->
+        <view class="mod t-address">
+            <text class="key">任务地点</text>
+            <text class="value">{{task.address}}</text>
+        </view>
+
+        <!-- 打卡时间 -->
+        <view class="mod t-sign-time">
+            <text class="key">打卡时间</text>
+            <text class="value">{{task.signTime}}</text>
+        </view>
+
+        <!-- 最早打卡时间 -->
+        <view class="mod t-early">
+            <text class="key">最早可打卡时间</text>
+            <text class="value">{{task.signEarlyTime}}</text>
+        </view>
+    </view>
+
+    <view class="mod-a mt20">
+        <!-- 起始时间 -->
+        <view class="mod t-time">
+            <view class="start">
+                <text>开始于</text>
+                <text class="date">{{task.startDay}}</text>
+            </view>
+            <view class="pipe"></view>
+            <view class="end">
+                <text>结束于</text>
+                <text class="date">{{task.endDay}}</text>
+            </view>
+        </view>
+
+        <!-- 重复日 -->
+        <view class="mod days">
+            <view class="key">
+                <text>重复日</text>
+            </view>
+            <view class="week">
+                <text class="d {{task.monday==1 ? 'on': ''}}">一</text>
+                <text class="d {{task.tuesday==1 ? 'on': ''}}">二</text>
+                <text class="d {{task.wednesday==1 ? 'on': ''}}">三</text>
+                <text class="d {{task.thursday==1 ? 'on': ''}}">四</text>
+                <text class="d {{task.friday==1 ? 'on': ''}}">五</text>
+                <text class="d {{task.saturday==1 ? 'on': ''}}">六</text>
+                <text class="d {{task.sunday==1 ? 'on': ''}}">日</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="mod-a mt20">
+        <view class="user-list-tit">
+            <text>参与成员 {{userList.length}}</text>
+        </view>
+        <!-- 用户参与列表 -->
+        <view class="user-list">
+            <block wx:for="{{userList}}">
+                <view class="user">
+                    <view class="head">
+                        <image class="img" src="{{item.avatarual}}"></image>
+                    </view>
+                    <view class="nick-name">
+                        <text>{{item.nickname}}</text>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </view>
+    
+</view>
